@@ -5,3 +5,7 @@
 Hatsune Miku Glitch Vocal Tool: https://www.youtube.com/watch?v=Rdru0F-0hus
 
 유니 라이브러리는 캐릭터플래닛 사이트에서 구매가 가능합니다. https://characterplanet.net
+
+
+App icon was illustrated by 오징어
+https://twitter.com/ojingeo11110/status/1740355186047275432
