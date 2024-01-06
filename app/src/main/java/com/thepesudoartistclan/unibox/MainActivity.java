@@ -300,7 +300,7 @@ public class MainActivity extends AppCompatActivity {
                     audioplay.reset();
                     audioplay.release();
                 }
-                audioplay=MediaPlayer.create(getApplicationContext(),R.raw.unibox_yeah); //change
+                audioplay=MediaPlayer.create(getApplicationContext(),R.raw.unibox_wow);
                 audioplay.start();
 
                 push11.setBackgroundResource(R.drawable.roundedbutton_active);
@@ -323,7 +323,7 @@ public class MainActivity extends AppCompatActivity {
                     audioplay.reset();
                     audioplay.release();
                 }
-                audioplay=MediaPlayer.create(getApplicationContext(),R.raw.unibox_yeah); //change
+                audioplay=MediaPlayer.create(getApplicationContext(),R.raw.unibox_yo);
                 audioplay.start();
 
                 push12.setBackgroundResource(R.drawable.roundedbutton_active);
@@ -346,7 +346,7 @@ public class MainActivity extends AppCompatActivity {
                     audioplay.reset();
                     audioplay.release();
                 }
-                audioplay=MediaPlayer.create(getApplicationContext(),R.raw.unibox_yeah); //change
+                audioplay=MediaPlayer.create(getApplicationContext(),R.raw.unibox_showtime);
                 audioplay.start();
 
                 push13.setBackgroundResource(R.drawable.roundedbutton_active);
@@ -369,7 +369,7 @@ public class MainActivity extends AppCompatActivity {
                     audioplay.reset();
                     audioplay.release();
                 }
-                audioplay=MediaPlayer.create(getApplicationContext(),R.raw.unibox_yeah); //change
+                audioplay=MediaPlayer.create(getApplicationContext(),R.raw.unibox_uhhuh);
                 audioplay.start();
 
                 push14.setBackgroundResource(R.drawable.roundedbutton_active);
@@ -392,7 +392,7 @@ public class MainActivity extends AppCompatActivity {
                     audioplay.reset();
                     audioplay.release();
                 }
-                audioplay=MediaPlayer.create(getApplicationContext(),R.raw.unibox_yeah); //change
+                audioplay=MediaPlayer.create(getApplicationContext(),R.raw.unibox_dropit);
                 audioplay.start();
 
                 push15.setBackgroundResource(R.drawable.roundedbutton_active);
@@ -415,7 +415,7 @@ public class MainActivity extends AppCompatActivity {
                     audioplay.reset();
                     audioplay.release();
                 }
-                audioplay=MediaPlayer.create(getApplicationContext(),R.raw.unibox_yeah); //change
+                audioplay=MediaPlayer.create(getApplicationContext(),R.raw.unibox_tada);
                 audioplay.start();
 
                 push16.setBackgroundResource(R.drawable.roundedbutton_active);
