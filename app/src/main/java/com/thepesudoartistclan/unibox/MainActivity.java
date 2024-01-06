@@ -156,7 +156,7 @@ public class MainActivity extends AppCompatActivity {
                     audioplay.reset();
                     audioplay.release();
                 }
-                audioplay=MediaPlayer.create(getApplicationContext(),R.raw.unibox_yeah);
+                audioplay=MediaPlayer.create(getApplicationContext(),R.raw.unibox_pook);
                 audioplay.start();
 
                 //Change button image to active button
@@ -174,6 +174,15 @@ public class MainActivity extends AppCompatActivity {
         });
         push6.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
+                //Play selected audio file from RAW directory
+                if (audioplay != null && audioplay.isPlaying()) {
+                    audioplay.stop();
+                    audioplay.reset();
+                    audioplay.release();
+                }
+                audioplay=MediaPlayer.create(getApplicationContext(),R.raw.unibox_pahk);
+                audioplay.start();
+
                 //Change button image to active button
                 push6.setBackgroundResource(R.drawable.roundedbutton_active);
 
@@ -189,6 +198,15 @@ public class MainActivity extends AppCompatActivity {
         });
         push7.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
+                //Play selected audio file from RAW directory
+                if (audioplay != null && audioplay.isPlaying()) {
+                    audioplay.stop();
+                    audioplay.reset();
+                    audioplay.release();
+                }
+                audioplay=MediaPlayer.create(getApplicationContext(),R.raw.unibox_dj);
+                audioplay.start();
+
                 //Change button image to active button
                 push7.setBackgroundResource(R.drawable.roundedbutton_active);
 
@@ -204,6 +222,15 @@ public class MainActivity extends AppCompatActivity {
         });
         push8.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
+                //Play selected audio file from RAW directory
+                if (audioplay != null && audioplay.isPlaying()) {
+                    audioplay.stop();
+                    audioplay.reset();
+                    audioplay.release();
+                }
+                audioplay=MediaPlayer.create(getApplicationContext(),R.raw.unibox_pyhu);
+                audioplay.start();
+
                 //Change button image to active button
                 push8.setBackgroundResource(R.drawable.roundedbutton_active);
 
@@ -219,6 +246,15 @@ public class MainActivity extends AppCompatActivity {
         });
         push9.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
+                //Play selected audio file from RAW directory
+                if (audioplay != null && audioplay.isPlaying()) {
+                    audioplay.stop();
+                    audioplay.reset();
+                    audioplay.release();
+                }
+                audioplay=MediaPlayer.create(getApplicationContext(),R.raw.unibox_loveya);
+                audioplay.start();
+
                 //Change button image to active button
                 push9.setBackgroundResource(R.drawable.roundedbutton_active);
 
@@ -234,6 +270,15 @@ public class MainActivity extends AppCompatActivity {
         });
         push10.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
+                //Play selected audio file from RAW directory
+                if (audioplay != null && audioplay.isPlaying()) {
+                    audioplay.stop();
+                    audioplay.reset();
+                    audioplay.release();
+                }
+                audioplay=MediaPlayer.create(getApplicationContext(),R.raw.unibox_shakeit);
+                audioplay.start();
+
                 //Change button image to active button
                 push10.setBackgroundResource(R.drawable.roundedbutton_active);
 
@@ -249,6 +294,15 @@ public class MainActivity extends AppCompatActivity {
         });
         push11.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
+                //Play selected audio file from RAW directory
+                if (audioplay != null && audioplay.isPlaying()) {
+                    audioplay.stop();
+                    audioplay.reset();
+                    audioplay.release();
+                }
+                audioplay=MediaPlayer.create(getApplicationContext(),R.raw.unibox_yeah); //change
+                audioplay.start();
+
                 push11.setBackgroundResource(R.drawable.roundedbutton_active);
 
                 //Return to inactive button after 100ms
@@ -263,6 +317,15 @@ public class MainActivity extends AppCompatActivity {
         });
         push12.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
+                //Play selected audio file from RAW directory
+                if (audioplay != null && audioplay.isPlaying()) {
+                    audioplay.stop();
+                    audioplay.reset();
+                    audioplay.release();
+                }
+                audioplay=MediaPlayer.create(getApplicationContext(),R.raw.unibox_yeah); //change
+                audioplay.start();
+
                 push12.setBackgroundResource(R.drawable.roundedbutton_active);
 
                 //Return to inactive button after 100ms
@@ -277,22 +340,94 @@ public class MainActivity extends AppCompatActivity {
         });
         push13.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
+                //Play selected audio file from RAW directory
+                if (audioplay != null && audioplay.isPlaying()) {
+                    audioplay.stop();
+                    audioplay.reset();
+                    audioplay.release();
+                }
+                audioplay=MediaPlayer.create(getApplicationContext(),R.raw.unibox_yeah); //change
+                audioplay.start();
 
+                push13.setBackgroundResource(R.drawable.roundedbutton_active);
+
+                //Return to inactive button after 100ms
+                final Handler handler = new Handler();
+                handler.postDelayed(new Runnable() {
+                    @Override
+                    public void run() {
+                        push13.setBackgroundResource(R.drawable.roundedbutton);
+                    }
+                }, 100);
             }
         });
         push14.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
+                //Play selected audio file from RAW directory
+                if (audioplay != null && audioplay.isPlaying()) {
+                    audioplay.stop();
+                    audioplay.reset();
+                    audioplay.release();
+                }
+                audioplay=MediaPlayer.create(getApplicationContext(),R.raw.unibox_yeah); //change
+                audioplay.start();
 
+                push14.setBackgroundResource(R.drawable.roundedbutton_active);
+
+                //Return to inactive button after 100ms
+                final Handler handler = new Handler();
+                handler.postDelayed(new Runnable() {
+                    @Override
+                    public void run() {
+                        push14.setBackgroundResource(R.drawable.roundedbutton);
+                    }
+                }, 100);
             }
         });
         push15.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
+                //Play selected audio file from RAW directory
+                if (audioplay != null && audioplay.isPlaying()) {
+                    audioplay.stop();
+                    audioplay.reset();
+                    audioplay.release();
+                }
+                audioplay=MediaPlayer.create(getApplicationContext(),R.raw.unibox_yeah); //change
+                audioplay.start();
 
+                push15.setBackgroundResource(R.drawable.roundedbutton_active);
+
+                //Return to inactive button after 100ms
+                final Handler handler = new Handler();
+                handler.postDelayed(new Runnable() {
+                    @Override
+                    public void run() {
+                        push15.setBackgroundResource(R.drawable.roundedbutton);
+                    }
+                }, 100);
             }
         });
         push16.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
+                //Play selected audio file from RAW directory
+                if (audioplay != null && audioplay.isPlaying()) {
+                    audioplay.stop();
+                    audioplay.reset();
+                    audioplay.release();
+                }
+                audioplay=MediaPlayer.create(getApplicationContext(),R.raw.unibox_yeah); //change
+                audioplay.start();
 
+                push16.setBackgroundResource(R.drawable.roundedbutton_active);
+
+                //Return to inactive button after 100ms
+                final Handler handler = new Handler();
+                handler.postDelayed(new Runnable() {
+                    @Override
+                    public void run() {
+                        push16.setBackgroundResource(R.drawable.roundedbutton);
+                    }
+                }, 100);
             }
         });
     }
