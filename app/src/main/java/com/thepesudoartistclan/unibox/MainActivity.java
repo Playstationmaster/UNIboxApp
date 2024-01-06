@@ -1,11 +1,8 @@
 package com.thepesudoartistclan.unibox;
 
-import java.util.Timer;
-import java.util.TimerTask;
+import java.io.IOException;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
-
-import android.graphics.drawable.Drawable;
 import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.os.Handler;
@@ -45,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this);
-                builder.setMessage("\"유니\" 또는 \"UNI\"는 ST MEDiA 사에서 개발한 보컬로이드 라이브러리입니다. 캐릭터플래닛 웹사이트에서 지금 구매하실 수 있습니다. \n\n" +
+                builder.setMessage("\"유니\" 또는 \"UNI\" 는 ST MEDiA 사에서 개발한 보컬로이드4 라이브러리입니다. 캐릭터플래닛 웹사이트에서 구매하실 수 있습니다. https://characterplanet.net \n\n" +
                         "이 앱은 여러분들이 유니의 목소리로 미리 만들어진 소리를 가지고 놀 수 있도록 해줍니다. 개발자가 과제하기 싫어서 만들었습니다. \n\n" +
                         "Developed by Producer.P \nApp icon illustrated by 오징어").setTitle("Information");
                 builder.show();
@@ -56,6 +53,11 @@ public class MainActivity extends AppCompatActivity {
         push1.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 //Play selected audio file from RAW directory
+                if (audioplay != null && audioplay.isPlaying()) {
+                    audioplay.stop();
+                    audioplay.reset();
+                    audioplay.release();
+                }
                 audioplay=MediaPlayer.create(getApplicationContext(),R.raw.unibox_bam);
                 audioplay.start();
 
@@ -77,6 +79,11 @@ public class MainActivity extends AppCompatActivity {
         push2.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 //Play selected audio file from RAW directory
+                if (audioplay != null && audioplay.isPlaying()) {
+                    audioplay.stop();
+                    audioplay.reset();
+                    audioplay.release();
+                }
                 audioplay=MediaPlayer.create(getApplicationContext(),R.raw.unibox_chiki);
                 audioplay.start();
 
@@ -95,8 +102,15 @@ public class MainActivity extends AppCompatActivity {
         });
         push3.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
+                //Play selected audio file from RAW directory
+                if (audioplay != null && audioplay.isPlaying()) {
+                    audioplay.stop();
+                    audioplay.reset();
+                    audioplay.release();
+                }
                 audioplay=MediaPlayer.create(getApplicationContext(),R.raw.unibox_whoa);
                 audioplay.start();
+
                 //Change button image to active button
                 push3.setBackgroundResource(R.drawable.roundedbutton_active);
 
@@ -112,8 +126,15 @@ public class MainActivity extends AppCompatActivity {
         });
         push4.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
+                //Play selected audio file from RAW directory
+                if (audioplay != null && audioplay.isPlaying()) {
+                    audioplay.stop();
+                    audioplay.reset();
+                    audioplay.release();
+                }
                 audioplay=MediaPlayer.create(getApplicationContext(),R.raw.unibox_yeah);
                 audioplay.start();
+
                 //Change button image to active button
                 push4.setBackgroundResource(R.drawable.roundedbutton_active);
 
@@ -129,6 +150,15 @@ public class MainActivity extends AppCompatActivity {
         });
         push5.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
+                //Play selected audio file from RAW directory
+                if (audioplay != null && audioplay.isPlaying()) {
+                    audioplay.stop();
+                    audioplay.reset();
+                    audioplay.release();
+                }
+                audioplay=MediaPlayer.create(getApplicationContext(),R.raw.unibox_yeah);
+                audioplay.start();
+
                 //Change button image to active button
                 push5.setBackgroundResource(R.drawable.roundedbutton_active);
 
