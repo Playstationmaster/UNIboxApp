@@ -9,3 +9,8 @@ Hatsune Miku Glitch Vocal Tool: https://www.youtube.com/watch?v=Rdru0F-0hus
 
 App icon was illustrated by 오징어
 https://twitter.com/ojingeo11110/status/1740355186047275432
+
+
+
+설치 파일 다운로드를 원하신다면 배포 링크를 확인하십시오.
+https://github.com/Playstationmaster/UNIboxApp/releases/tag/AndroidAPK
