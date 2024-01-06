@@ -56,7 +56,7 @@ public class MainActivity extends AppCompatActivity {
         push1.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 //Play selected audio file from RAW directory
-                audioplay=MediaPlayer.create(getApplicationContext(),R.raw.emotionaldamage);
+                audioplay=MediaPlayer.create(getApplicationContext(),R.raw.unibox_bam);
                 audioplay.start();
 
                 //Change button image to active button
@@ -77,7 +77,7 @@ public class MainActivity extends AppCompatActivity {
         push2.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 //Play selected audio file from RAW directory
-                audioplay=MediaPlayer.create(getApplicationContext(),R.raw.emotionaldamage);
+                audioplay=MediaPlayer.create(getApplicationContext(),R.raw.unibox_chiki);
                 audioplay.start();
 
                 //Change button image to active button
@@ -95,6 +95,8 @@ public class MainActivity extends AppCompatActivity {
         });
         push3.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
+                audioplay=MediaPlayer.create(getApplicationContext(),R.raw.unibox_whoa);
+                audioplay.start();
                 //Change button image to active button
                 push3.setBackgroundResource(R.drawable.roundedbutton_active);
 
@@ -110,6 +112,8 @@ public class MainActivity extends AppCompatActivity {
         });
         push4.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
+                audioplay=MediaPlayer.create(getApplicationContext(),R.raw.unibox_yeah);
+                audioplay.start();
                 //Change button image to active button
                 push4.setBackgroundResource(R.drawable.roundedbutton_active);
 
